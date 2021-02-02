@@ -2,5 +2,8 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/WPF/survGIS/.vs/**
-/WPF/survGIS/packages
+**/.vs/*
+**/obj/*
+**/packages/*
+!**/packages/repositories.config
+**/bin/debug/*
