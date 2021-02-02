@@ -1,0 +1,5 @@
+\survGIS\bin\Debug\**
+\survGIS\obj\Debug\**
+\survGIS\obj\Release\**
+\packages\**
+\.vs\**

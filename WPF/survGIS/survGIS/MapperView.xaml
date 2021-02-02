@@ -1,0 +1,14 @@
+﻿<UserControl x:Class="survGIS.MapperView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:esri="http://schemas.esri.com/arcgis/runtime/2013"
+             xmlns:local="clr-namespace:survGIS"
+             mc:Ignorable="d" IsEnabled="{Binding Enabled}"
+             d:DesignHeight="400" d:DesignWidth="300">
+    <Grid>
+        <esri:MapView x:Name="MyMapView"/>
+        <TextBlock x:Name="statusTextBlock" HorizontalAlignment="Left" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Margin="5"/>
+    </Grid>
+</UserControl>
